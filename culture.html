@@ -7,23 +7,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-        <!-- LOGO PART --> 
-    <div class=" flex justify-center">
-    <img class="w-30 h-20 mr-10" src=" https://chi-farms.com/wp-content/uploads/2021/03/cropped-cropped-NEW-CHI-FARMS-LOGO-FA-18_09_2018-3-1-300x236.jpg" alt="chi-farms-logo">
+       <!-- LOGO PART -->
+    <div class=" md:flex mx-10 gap-10 justify-center">
+    <img class="w-30 h-20" src=" https://chi-farms.com/wp-content/uploads/2021/03/cropped-cropped-NEW-CHI-FARMS-LOGO-FA-18_09_2018-3-1-300x236.jpg"  alt="chi-farms-logo">
 <!-- HEADER PART -->
-    <div class="flex p-10 text-2xl gap-10 text-red-700">
-         <a href="http://127.0.0.1:5500/index.html" class="hover:bg-green-500 cursor-pointer rounded p-2">Home</a>
-         <a href ="http://127.0.0.1:5500/about.html" class="hover:bg-green-500 cursor-pointer rounded  p-2"> About Us</a>
-         <a href ="http://127.0.0.1:5500/product.html" class="hover:bg-green-500 cursor-pointer rounded p-2"> Our Products</a>
-         <a href ="http://127.0.0.1:5500/partner.html" class="hover:bg-green-500 cursor-pointer rounded p-2"> Our Partners </a>
-         <a href ="http://127.0.0.1:5500/career.html" class="hover:bg-green-500 cursor-pointer rounded p-2"> Careers </a>
-         <a href ="http://127.0.0.1:5500/contactus.html" class="hover:bg-green-500 rounded cursor-pointer p-2"> Contact Us </a>
-    </div>
+        <ul class="md:flex md:gap-[4vw] font-['Roboto Condensed'] text-2xl mt-10  gap-10 text-red-700">
+             <li> <a href="http://127.0.0.1:5500/index.html" class="hover:bg-green-500 cursor-pointer rounded">Home</a></li>
+             <li>  <a href ="http://127.0.0.1:5500/about.html" class="hover:bg-green-500 cursor-pointer rounded "> About Us</a></li>
+             <li> <a href ="http://127.0.0.1:5500/product.html" class="hover:bg-green-500 cursor-pointer rounded"> Our Products</a></li>
+             <li> <a href ="http://127.0.0.1:5500/partner.html" class="hover:bg-green-500 cursor-pointer rounded"> Our Partners </a></li>
+             <li><a href ="http://127.0.0.1:5500/career.html" class="hover:bg-green-500 cursor-pointer rounded"> Careers </a></li>
+             <li><a href ="http://127.0.0.1:5500/contactus.html" class="hover:bg-green-500 cursor-pointer rounded"> Contact Us </a></li>
+        </ul>
     </div>
 
     <!-- PARAGRAPH PART -->
-          <h1 class="text-center font-bold text-3xl text-black"> WHAT DEFINES US</h1><br><br>
-    <div class="text-gray-600 font-semibold mx-60">
+          <h1 class="mx-10 font-bold text-3xl mt-5 text-black"> WHAT DEFINES US</h1><br><br>
+    <div class="text-gray-600 font-semibold mx-20">
          <p>INTEGRITY: <br><br> We are fair, honest and transparent in all our actions, decisions and processes. Everything we do must uphold the highest ethical standards.</p><br>
          <p>OWNER’S MINDSET: <br><br>  Every day, we take the initiative to make Chi Farms better. We treat every penny like our own and proactively work towards meeting our organizational goals.</p><br>
          <p>DIVERSITY & INCLUSION: <br><br> Our presence creates a rich variety of perspectives, which makes our business better. We respect and appreciate each others’ differences, and pledge to support a culture of respect towards each other.</p><br>
@@ -32,23 +32,23 @@
          <p>EXCELLENCE: <br><br> We are committed to our employees’ personal and professional growth and take pride in providing outstanding products and services to all our customers. We strive to be the best in everything we do.</p><br>
     </div>
 
-    <!-- green background part -->
-        <div class=" bg-green-700 my-5 p-10 w-98 h-30 mt-40 rounded ml-2 text-white">
-             <h1 class=" text-center font-serif font-bold"> Send us a message </h1>
-        <div class="flex gap-20">
-             <p> Cormat House, Plot A, Block 2, Ilupeju Industrial Estate, <br><br> Apapa - Oworonshonki, Express Way, Lagos Nigeria. <br><br>
+     <!-- green background part -->
+        <div class=" bg-green-700 my-5 p-5 w-98 h-30 rounded ml-2 text-white">
+        <div class="md:flex gap-20">
+            <p class="mt-5"> Cormat House, Plot A, Block 2, Ilupeju Industrial Estate, <br><br> Apapa - Oworonshonki, Express Way, Lagos Nigeria. <br><br>
             08033291598 (for general inquiries) <br><br> chifarms@clicktgi.net <br><br> Mon - Friday 8am to 5 pm</p>
-        <div class="text-black mt-5 gap-5">
-             <div> <input type="text" placeholder="Name"  class="bg-white p-5 w-80 h-5 rounded "></div>
-             <div> <input type="text" placeholder="Email"  class="bg-white p-5 w-80 mt-5 h-5 rounded "> </div> 
-             <div> <input type="text" placeholder="Message"  class="bg-white p-5 w-80 mt-5 h-5 rounded "></div> 
-             <div> <button  class="bg-orange-400 text-center mt-5  p-2 w-80 h-10 font-semibold cursor-pointer rounded "> Send</button> </div>  
+        <div class="text-black mb-5">
+            <h1 class=" text-white m-5 font-serif mr-5 font-bold"> Send us a message </h1>
+           <div> <input type="text" placeholder="Name"  class="bg-white p-5 w-80 h-5 rounded "></div>
+           <div> <input type="text" placeholder="Email"  class="bg-white p-5 w-80 mt-5 h-5 rounded "> </div> 
+           <div> <input type="text" placeholder="Message"  class="bg-white p-5 w-80 mt-5 h-5 rounded "></div> 
+            <div> <button  class="bg-orange-400 text-center mt-5  p-2 w-80 h-10 font-semibold  cursor-pointer rounded "> Send</button> </div>  
         </div>
-        <div class="mt-20"> 
-             <p class="text-center"> Follow us on </p><br>
-             <a class="text-black bg-blue-400 font-small hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://web.facebook.com/people/Chi-Farms-Ltd/100063744232291/#"> Facebook</a>
+        <div class="my-20 ml-5"> 
+            <p class=" ml-10 "> Follow us on </p><br>
+             <a class="text-black bg-blue-400 font-small  hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://web.facebook.com/people/Chi-Farms-Ltd/100063744232291/#"> Facebook</a>
              <a class="text-black bg-blue-400 font-small hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://x.com/chifarmsnigeria?s=08"> Twitter</a>
-             <a class="text-black bg-blue-400 font-small hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://www.instagram.com/chifarmsnigeria/?igshid=1l82x96dag5th"> Instagram</a>
+             <a class="text-black bg-blue-400 font-small  hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://www.instagram.com/chifarmsnigeria/?igshid=1l82x96dag5th"> Instagram</a>
         </div>
         </div>
     </div>

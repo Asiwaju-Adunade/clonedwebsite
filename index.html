@@ -5,62 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <!-- LOGO PART -->
-    <div class=" flex justify-center">
-    <img class="w-30 h-20 mr-10" src=" https://chi-farms.com/wp-content/uploads/2021/03/cropped-cropped-NEW-CHI-FARMS-LOGO-FA-18_09_2018-3-1-300x236.jpg"  alt="chi-farms-logo">
+    <div class=" md:flex mx-10 gap-10 justify-center">
+    <img class="w-30 h-20" src=" https://chi-farms.com/wp-content/uploads/2021/03/cropped-cropped-NEW-CHI-FARMS-LOGO-FA-18_09_2018-3-1-300x236.jpg"  alt="chi-farms-logo">
 <!-- HEADER PART -->
-    <div class="flex p-10 text-2xl gap-10 text-red-700">
-        <a href="http://127.0.0.1:5500/index.html" class="hover:bg-green-500 cursor-pointer rounded p-2">Home</a>
-        <a href ="http://127.0.0.1:5500/about.html" class="hover:bg-green-500 cursor-pointer rounded  p-2"> About Us</a>
-        <a href ="http://127.0.0.1:5500/product.html" class="hover:bg-green-500 cursor-pointer rounded p-2"> Our Products</a>
-        <a href ="http://127.0.0.1:5500/partner.html" class="hover:bg-green-500 cursor-pointer rounded p-2"> Our Partners </a>
-        <a href ="http://127.0.0.1:5500/career.html" class="hover:bg-green-500 cursor-pointer rounded p-2"> Careers </a>
-        <a href ="http://127.0.0.1:5500/contactus.html" class="hover:bg-green-500 cursor-pointer rounded  p-2"> Contact Us </a>
-    </div>
+        <ul class="md:flex md:gap-[4vw] font-['Roboto Condensed'] text-2xl mt-10  gap-10 text-red-700">
+             <li> <a href="http://127.0.0.1:5500/index.html" class="hover:bg-green-500 cursor-pointer rounded">Home</a></li>
+             <li>  <a href ="http://127.0.0.1:5500/about.html" class="hover:bg-green-500 cursor-pointer rounded "> About Us</a></li>
+             <li> <a href ="http://127.0.0.1:5500/product.html" class="hover:bg-green-500 cursor-pointer rounded"> Our Products</a></li>
+             <li> <a href ="http://127.0.0.1:5500/partner.html"  class="hover:bg-green-500 cursor-pointer rounded"> Our Partners </a></li>
+             <li><a href ="http://127.0.0.1:5500/career.html" class="hover:bg-green-500 cursor-pointer rounded"> Careers </a></li>
+             <li><a href ="http://127.0.0.1:5500/contactus.html" class="hover:bg-green-500 cursor-pointer rounded"> Contact Us </a></li>
+        </ul>
     </div>
 
 <!-- PARAGRAPH & PICTURE PART -->
-         <h1 class=" text-green-400 text-2xl font-serif my-5 ml-20 font-bold"> CHI Farms Limited</h1>
-         <div class="flex ml-20 gap-5">
-            <small class="leading-relaxed text-sm font-serif text-gray-500"> Chi farms Ltd. is an integrated poultry farm with breeding operations and processing of commercial broilers. We offer parent stock of layer and broiler lines to other hatcheries in Nigeria. We hatch and distribute commercial pullets and broilers, and offer posr-sales technical services to customers. Chi farms produces and processes broilers, sausages and hamburgers for fast foods, restaurants, hotels, catering services and supermarkets in Nigeria. <br><br>
+     <div class="md:flex gap-10 mx-10">
+        <!-- TEXT -->
+     <div class="md:w-[60%]">
+         <h1 class="text-green-400 text-2xl font-serif my-5 ml-20 font-bold"> CHI Farms Limited</h1>
+         <small class="font-serif text-gray-500"> Chi farms Ltd. is an integrated poultry farm with breeding operations and processing of commercial broilers. We offer parent stock of layer and broiler lines to other hatcheries in Nigeria. We hatch and distribute commercial pullets and broilers, and offer posr-sales technical services to customers. Chi farms produces and processes broilers, sausages and hamburgers for fast foods, restaurants, hotels, catering services and supermarkets in Nigeria. <br><br>
             Chi Farms Ltd. has an aqua farm active in the breeding and rearing of catfish. <br><br> 
             Chi Farms also supplies a wide range of poultry vaccines to the Nigerian poultry sector, supported by its own laboraties and veterinary services. <br><br> 
             We also have a training institute for capacity building and manpower development. We offer courses in general poultry management, rearing management, biosecurity, among many others.</small>
-            <img class="w-98 mr-20 h-80" src=" https://chi-farms.com/wp-content/uploads/2023/06/Professional-business-card.png">
-        </div> <br><br>
+     </div>
+      <!-- IMAGE -->
+     <div class="md:w-[40%] h-80 mr-20 mt-20">
+          <img src=" https://chi-farms.com/wp-content/uploads/2023/06/Professional-business-card.png">
+     </div>
+     </div>
 
 <!-- FIRST PARAGRAPH  -->
-                <h1 class=" text-green-500 text-2xl font-sans font-bold ml-20 "> OUR PRODUCT AND SERVICES</h1>
-            <div class=" ml-10 flex gap-5 mr-10  my-5 ">
+                <h1 class=" text-green-500 text-2xl font-sans  font-bold ml-20 "> OUR PRODUCT AND SERVICES</h1><br>
+            <div class="md:flex gap-3 mx-20">
             <div>
                 <p class="text-green-700 text-center font-bold"> Breeder Chicks</p>
-                <small class="text-gray-600 "> Chi Farms Ltd. produces Parent Stock (PS) birds at its hatchery. The Parent Stock covers both the broiler and layer line. Chi Farms produces the Arbor Acres Plus PS for the broiler line and the ISA Brown Layer PS for the layer line.</small><br><br><br>
+                <small class="text-gray-600 "> Chi Farms Ltd. produces Parent Stock (PS) birds at its hatchery. The Parent Stock covers both the broiler and layer line. Chi Farms produces the Arbor Acres Plus PS for the broiler line and the ISA Brown Layer PS for the layer line.</small><br><br>
                 <p class="text-green-700  text-center font-bold"> Aquaculture</p>
-                <small class=" text-gray-600"> Chi Farms Ltd. sells and distributes juveniles, live catfish, frozen catfish, fillet, and fish feed.</small>
+                <small class=" text-gray-600"> Chi Farms Ltd. sells and distributes juveniles, live catfish, frozen catfish, fillet, and fish feed.</small><br><br>
             </div>
 <!-- SECOND PARAGRAPH -->
             <div>
                 <p class="text-green-700 text-center font-bold"> Commercial Day-Old Chick </p>
-                <small class=" text-gray-600 "> Chi Farms Ltd. produces the commercial broiler and pullet day-old chicks. We have the Arbor Acres Plus commercial broiler day-old chicks, ISA Brown commercial pullet day-old chicks and the Amberlink commercial pullet day-old chicks.</small><br><br><br>
+                <small class=" text-gray-600 "> Chi Farms Ltd. produces the commercial broiler and pullet day-old chicks. We have the Arbor Acres Plus commercial broiler day-old chicks, ISA Brown commercial pullet day-old chicks and the Amberlink commercial pullet day-old chicks.</small><br><br>
                 <p class="text-green-700 text-center font-bold"> French Fries </p>
-                <small class=" text-gray-600 "> Chi Farms Ltd. sells and distributes the following French Fries: Lutosa Food Services, Straight Cut, Crinkle Cut, and Shoestring Fries.</small>
+                <small class=" text-gray-600 "> Chi Farms Ltd. sells and distributes the following French Fries: Lutosa Food Services, Straight Cut, Crinkle Cut, and Shoestring Fries.</small><br><br>
             </div>
 <!-- THIRD PARAGRAPH -->
             <div>
                 <p class="text-green-700 text-center font-bold"> Chicken Frozen Product</p>
-                <small class=" text-gray-600 "> Chi Farms Ltd. sells the following chicken frozen products: dressed chicken, drumsticks, laps, thighs, wings, boneless chicken (fillet), gizzard, chicken sausage, and smoked chicken.</small><br><br><br>
+                <small class=" text-gray-600 "> Chi Farms Ltd. sells the following chicken frozen products: dressed chicken, drumsticks, laps, thighs, wings, boneless chicken (fillet), gizzard, chicken sausage, and smoked chicken.</small><br><br>
                 <p class="text-green-700 text-center font-bold"> Customized Product</p>
-                <small class=" text-gray-600  "> Chi Farms Ltd. makes and distributes customized products for its customers such as pepperoni, beef, catfish, and chicken pizza toppings.</small>
+                <small class=" text-gray-600  "> Chi Farms Ltd. makes and distributes customized products for its customers such as pepperoni, beef, catfish, and chicken pizza toppings.</small><br><br>
             </div>
 <!-- FOURTH PARAGRAPH -->
             <div>
                 <p class="text-green-700 text-center  font-bold"> Beef Frozen Products</p>
-                <small class=" text-gray-600"> Chi Farms Ltd. sells the following beef frozen products: Breakfast Sausage, Value Sausage, Pepperoni Sausage, Smoked Beef Sausage, Beef Sausage Meat, Onion Beef Burger, Minced Meat, and Chicadella Sausage.</small><br><br><br>
+                <small class=" text-gray-600"> Chi Farms Ltd. sells the following beef frozen products: Breakfast Sausage, Value Sausage, Pepperoni Sausage, Smoked Beef Sausage, Beef Sausage Meat, Onion Beef Burger, Minced Meat, and Chicadella Sausage.</small><br><br>
                 <p class="text-green-700  text-center font-bold"> Technical Support Services</p>
-                <small class=" text-gray-600">Chi Farms Ltd. provides customers and potential customers with laboratory services, vaccination, training, and technical farms support.</small>
+                <small class=" text-gray-600">Chi Farms Ltd. provides customers and potential customers with laboratory services, vaccination, training, and technical farms support.</small><br><br>
             </div>
             </div>
 
@@ -78,22 +87,22 @@
         </div>
 
     <!-- green background part -->
-        <div class=" bg-green-700 my-5 p-10 w-98 h-30 rounded ml-2 text-white">
-            <h1 class=" text-center font-serif font-bold"> Send us a message </h1>
-        <div class="flex gap-20">
-            <p> Cormat House, Plot A, Block 2, Ilupeju Industrial Estate, <br><br> Apapa - Oworonshonki, Express Way, Lagos Nigeria. <br><br>
+        <div class=" bg-green-700 my-5 p-5 w-98 h-30 rounded ml-2 text-white">
+        <div class="md:flex gap-20">
+            <p class="mt-5"> Cormat House, Plot A, Block 2, Ilupeju Industrial Estate, <br><br> Apapa - Oworonshonki, Express Way, Lagos Nigeria. <br><br>
             08033291598 (for general inquiries) <br><br> chifarms@clicktgi.net <br><br> Mon - Friday 8am to 5 pm</p>
-        <div class="text-black mt-5 gap-5">
+        <div class="text-black mb-5">
+            <h1 class=" text-white m-5 font-serif mr-5 font-bold"> Send us a message </h1>
            <div> <input type="text" placeholder="Name"  class="bg-white p-5 w-80 h-5 rounded "></div>
            <div> <input type="text" placeholder="Email"  class="bg-white p-5 w-80 mt-5 h-5 rounded "> </div> 
            <div> <input type="text" placeholder="Message"  class="bg-white p-5 w-80 mt-5 h-5 rounded "></div> 
             <div> <button  class="bg-orange-400 text-center mt-5  p-2 w-80 h-10 font-semibold  cursor-pointer rounded "> Send</button> </div>  
         </div>
-        <div class="my-20"> 
-            <p class="text-center"> Follow us on </p><br>
-             <a class="text-black bg-blue-400 font-small hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://web.facebook.com/people/Chi-Farms-Ltd/100063744232291/#"> Facebook</a>
+        <div class="my-20 ml-5"> 
+            <p class=" ml-10 "> Follow us on </p><br>
+             <a class="text-black bg-blue-400 font-small  hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://web.facebook.com/people/Chi-Farms-Ltd/100063744232291/#"> Facebook</a>
              <a class="text-black bg-blue-400 font-small hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://x.com/chifarmsnigeria?s=08"> Twitter</a>
-             <a class="text-black bg-blue-400 font-small hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://www.instagram.com/chifarmsnigeria/?igshid=1l82x96dag5th"> Instagram</a>
+             <a class="text-black bg-blue-400 font-small  hover:bg-white w-5 h-2 cursor-pointer rounded border-black p-2" href="https://www.instagram.com/chifarmsnigeria/?igshid=1l82x96dag5th"> Instagram</a>
         </div>
         </div>
     </div>
